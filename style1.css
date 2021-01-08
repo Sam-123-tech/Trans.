@@ -1,0 +1,14 @@
+p{
+color: rebeccapurple;
+background-color: hotpink;
+border: 3px solid rgb(114, 100, 237);
+padding: 50px;
+            margin: 50px;
+}
+p1{
+    color: yellow;
+    background-color: darkgreen;
+    border: 3px solid darkmagenta;
+    margin: 50px;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+       *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            height: 80vh;
+            background-color:rgb(109, 163, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:rgb(255, 60, 0);
+            border: 10px solid thistle;
+            border-radius: 8px;
+            height: 400px;
+            width: 400px;
+            transition:all 1s ease-in-out;
+        }
+        .box:hover{
+            /*transform: rotate(180deg);*/
+            background-color: deeppink;
+           /*transform: skew(40deg);*/
+           transform: translateX(120px);
+            transform: translateY(120px);
+            transform: translate(120px,120px);
+            transform:scale(2);
+            transform: perspective(500px) translateZ(45px);
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is a box.
+            My name is Samridhi Majumdar.
+        </div>
+    </div>
+</body>
+</html>
